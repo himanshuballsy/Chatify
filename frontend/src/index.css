@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@import "@fontsource/turret-road";
+
+@theme {
+    --font-logo: "Turret Road", "serif";
+}
+
+@plugin "daisyui" {
+    themes: all
+}
+
+
+
