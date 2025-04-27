@@ -1,10 +1,10 @@
-# NexaChat - A Real-time Chat App'
+# Chatify - A Real-time Chat App'
 
 ### **Deployment Link**  
-🔗 [Nexa Chat](https://nexachat.onrender.com/)  
+🔗 [Chatify](https://Chatify.onrender.com/)  
 
 ## Description
-Nexa Chat is a real-time chat application that allows users to communicate seamlessly users can share texts and images.
+Chatify is a real-time chat application that allows users to communicate seamlessly users can share texts and images.
 
 ## Features
 - **Real-time Chat**: Instant messaging between users.
@@ -22,11 +22,11 @@ Nexa Chat is a real-time chat application that allows users to communicate seaml
 ## Installation
 1. Clone the repository:
    ```bash
-   https://github.com/Nikhillaxkar03/NexaChat.git
+ https://github.com/himanshuballsy/Chatify.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd nexachat
+   cd Chatify
    ```
 3. Install dependencies:
    ```bash
