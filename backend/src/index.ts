@@ -37,12 +37,12 @@ const PORT = process.env.PORT;
 const __dirname = path.resolve();  
 
 
-//app.use(express.static(path.join(__dirname, "..NexaChat/frontend/dist")));
-
-app.get('/', (req: Request, res: Response) => {
-    res.send("hello world")
-} )
-app.use(express.static(path.join(__dirname, "..NexaChat/frontend/dist")));
+if(process.env.NODE_ENV !== "development") {
+    app.use(express.static(path.join(__dirname, "../frontend/dist")));
+    app.get('*', (req: Request, res: Response) => {
+        res.sendFile(path.join(__dirname, "../frontend/dist/index.html"));
+    } )
+}
 
 server.listen(process.env.PORT || 3000, ()=> {
     console.log(`server started at port: ${PORT}`)
